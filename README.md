@@ -14,7 +14,7 @@ Created by [Shstkvch](https://github.com/shstkvch) and first used at CoderDojo G
 
 Follow these steps to run the code through an online IDE (integrated development environment)
 
-1. Go to [CodingGround website](https://www.tutorialspoint.com/execute_nodejs_online.php), you can run NodeJS code online using this took
+1. Go to [CodingGround website](https://www.tutorialspoint.com/execute_nodejs_online.php), you can run NodeJS code online using this tool
 2. Install the required packages
 3. Run the code
 
