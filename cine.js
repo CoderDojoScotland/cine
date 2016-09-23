@@ -1,11 +1,11 @@
-'use strict';
 
-let Xray     = require('x-ray')
-,   colors   = require('colors')
-,   util     = require('util')
-,   clitable = require('cli-table')
 
-let x = new Xray();
+var Xray     = require('x-ray');
+var colors   = require('colors');
+var util     = require('util');
+var clitable = require('cli-table');
+
+var x = new Xray();
 
 x( 'http://www.google.co.uk/movies?near=g20+6ug&rl=1', {
   'cinemas': x('.theater', [
@@ -28,7 +28,7 @@ function printListings( e, r ) {
     return;
   }
 
-  let cine_count = 0;
+  var cine_count = 0;
   r.cinemas.forEach( function( cinema ) {
     if ( cine_count > 10 ) {
       return;
@@ -43,9 +43,9 @@ function printListings( e, r ) {
         return;
       }
 
-      let info = film.info.split('-');
+      var info = film.info.split('-');
 
-      let rating = info[1];
+      var rating = info[1];
 
       if ( rating.indexOf('PG') == -1 && rating.indexOf('U') == -1 ) {
         return; // exclude non-PG films
@@ -53,8 +53,8 @@ function printListings( e, r ) {
 
       console.log( film.title );
 
-      let times = '';
-      let time_count = 0;
+      var times = '';
+      var time_count = 0;
 
       // go through every film time
       film.times.forEach( function( time ) {
