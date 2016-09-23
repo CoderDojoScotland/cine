@@ -2,6 +2,7 @@
 A command line tool for displaying local cinema times.
 
 ## Author 
+
 Created by [Shstkvch](https://github.com/shstkvch) and first used at CoderDojo Glasgow <br/>
 
 
@@ -13,13 +14,9 @@ Created by [Shstkvch](https://github.com/shstkvch) and first used at CoderDojo G
 
 Follow these steps to run the code through an online IDE (integrated development environment)
 
-<ol>
-  <li>Go to [CodingGround website](https://www.tutorialspoint.com/execute_nodejs_online.php), you can run NodeJS code online using this took</li>
-  <li>Install the required packages</li>
-  <li>Run the code</li>
-</ol>
-
-
+1. Go to [CodingGround website](https://www.tutorialspoint.com/execute_nodejs_online.php), you can run NodeJS code online using this took
+2. Install the required packages
+3. Run the code
 
 
 
